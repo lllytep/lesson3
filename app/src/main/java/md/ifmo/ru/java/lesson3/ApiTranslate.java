@@ -40,13 +40,15 @@ public class ApiTranslate {
                 "&options=" + OPTIONS +
                 "&callback=" + CALLBACK);
         Log.i(ApiTranslate.class.getName(), httpGet.getMethod());
-        HttpResponse httpResponse = null;
+        /*
+	HttpResponse httpResponse = null;
         try {
             httpResponse = client.execute(httpGet);
         } catch (IOException e) {
             e.printStackTrace();
         }
         Log.i( ApiTranslate.class.getName(),httpResponse.getEntity().toString());
+	*/
 
     }
 
